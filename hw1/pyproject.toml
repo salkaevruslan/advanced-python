@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+    "matplotlib~=3.5.1",
+    "networkx~=2.6.3",
+    "click~=8.0.3",
+    "setuptools~=57.0.0"
+]
+build-backend = "setuptools.build_meta"

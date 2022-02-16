@@ -1,8 +1,11 @@
 import ast
+import inspect
+import os
 
 import networkx as nx
 
-from graph import AstGraph
+from ast_generator.graph import AstGraph
+from ast_generator.fib import get_fib
 
 
 def read_file(path):
@@ -10,8 +13,10 @@ def read_file(path):
         return file.read()
 
 
-if __name__ == '__main__':
-    code = read_file("fib.py")
+def main():
+    if not os.path.exists("artifacts"):
+        os.mkdir("artifacts")
+    code = inspect.getsource(get_fib)
     tree = ast.parse(code)
     graph = AstGraph()
     graph.visit(tree)
@@ -20,3 +25,7 @@ if __name__ == '__main__':
     nx.draw(G, pos, with_labels=True)
     p = nx.drawing.nx_pydot.to_pydot(G)
     p.write_png('artifacts/fib.png')
+
+
+if __name__ == '__main__':
+    main()
