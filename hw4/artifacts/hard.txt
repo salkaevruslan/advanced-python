@@ -1,0 +1,24 @@
+Sent message: QWERTY
+ at 2022-03-09 10:48:31.107791
+Received message: djregl
+ at 2022-03-09 10:48:31.109012
+Sent message: q
+ at 2022-03-09 10:48:31.492577
+Sent message: asdF
+ at 2022-03-09 10:48:35.632311
+Received message: d
+ at 2022-03-09 10:48:36.114043
+Sent message: GGhG
+ at 2022-03-09 10:48:39.747784
+Sent message: HJK
+ at 2022-03-09 10:48:40.888226
+Received message: nfqs
+ at 2022-03-09 10:48:41.117168
+Sent message: ASD
+ at 2022-03-09 10:48:44.283508
+Received message: ttut
+ at 2022-03-09 10:48:46.121485
+Sent message: 123
+ at 2022-03-09 10:48:46.287983
+Received message: uwx
+ at 2022-03-09 10:48:51.124684
